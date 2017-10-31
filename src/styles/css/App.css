@@ -1,0 +1,22 @@
+.form-project, .form-project > label, .form-project button {
+  margin-left: auto;
+  margin-right: auto; }
+
+.flex-box {
+  display: flex;
+  justify-content: space-between; }
+
+.form-project {
+  max-width: 20rem; }
+  .form-project > label {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 1.5rem; }
+    .form-project > label > input {
+      width: 100%;
+      font-size: 1rem; }
+  .form-project fieldset {
+    margin-bottom: 1rem; }
+  .form-project button {
+    display: block;
+    margin-bottom: 1rem; }

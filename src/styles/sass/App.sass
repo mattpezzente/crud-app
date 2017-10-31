@@ -1,0 +1,32 @@
+$max-width: 20rem
+$base-font-size: 1rem
+
+%center-object
+	margin-left: auto
+	margin-right: auto
+
+.flex-box
+	display: flex
+	justify-content: space-between
+
+.form-project
+	@extend %center-object
+	max-width: $max-width
+
+	>label 
+		@extend %center-object
+		display: block
+		margin-bottom: 1rem
+		font-size: $base-font-size + 0.5rem
+
+		>input
+			width: 100%
+			font-size: $base-font-size
+
+	fieldset
+		margin-bottom: 1rem
+
+	button
+		@extend %center-object
+		display: block
+		margin-bottom: 1rem
