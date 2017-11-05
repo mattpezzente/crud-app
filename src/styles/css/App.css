@@ -1,10 +1,10 @@
-.form-project, .form-project > label, .form-project button {
+.form-project, .form-project > label, .form-project button, ul {
   margin-left: auto;
   margin-right: auto; }
 
-.flex-box {
+.flex-box, ul {
   display: flex;
-  justify-content: space-between; }
+  justify-content: left; }
 
 .form-project {
   max-width: 20rem; }
@@ -12,11 +12,24 @@
     display: block;
     margin-bottom: 1rem;
     font-size: 1.5rem; }
-    .form-project > label > input {
+    .form-project > label > input, .form-project > label textarea {
       width: 100%;
       font-size: 1rem; }
+    .form-project > label > textarea {
+      height: 10rem; }
   .form-project fieldset {
     margin-bottom: 1rem; }
   .form-project button {
     display: block;
     margin-bottom: 1rem; }
+
+ul {
+  max-width: 50rem;
+  list-style-type: none;
+  border: 2px solid #eee;
+    border-margin: 0;
+    border-padding: 0; }
+
+.project-item {
+  width: calc(100%/3);
+  margin: 1rem; }

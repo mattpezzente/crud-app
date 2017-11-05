@@ -1,0 +1,984 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Exp",
+				"ExpenseList"
+			],
+			[
+				"ex",
+				"exList"
+			],
+			[
+				"co",
+				"Component"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"Project",
+				"ProjectItem"
+			],
+			[
+				"Projet",
+				"ProjectItem"
+			],
+			[
+				"qu",
+				"querySelectorAll"
+			],
+			[
+				"close",
+				"closeModal"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"check",
+				"checkInputs"
+			],
+			[
+				"port",
+				"portfolio"
+			],
+			[
+				"portf",
+				"portfolios〔variable〕"
+			],
+			[
+				"temp",
+				"tempPortfolio〔variable〕"
+			],
+			[
+				"btnCre",
+				"btnCreateHTML〔variable〕"
+			],
+			[
+				"quer",
+				"querySelector"
+			],
+			[
+				"q",
+				"querySelector"
+			],
+			[
+				"ad",
+				"addEventListener"
+			],
+			[
+				"header-",
+				"header-font"
+			],
+			[
+				"content",
+				"content-font"
+			],
+			[
+				"tag",
+				"tag-font"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"backgorund",
+				"background"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"sec",
+				"secondary-color"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"header",
+				"header-font"
+			],
+			[
+				"h3",
+				"h3-size"
+			],
+			[
+				"center",
+				"center-object"
+			],
+			[
+				"margi",
+				"margin-bottom"
+			],
+			[
+				"brow",
+				"browserSync〔variable〕"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"compas",
+				"compassHTML"
+			],
+			[
+				"tr",
+				"tripAdvisorHTML"
+			],
+			[
+				"backgrou",
+				"background-position"
+			],
+			[
+				"background-",
+				"background-size"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"backgroun",
+				"background"
+			],
+			[
+				"backgro",
+				"background"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"flex",
+				"flex-direction"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"heroEv",
+				"heroEventContainer"
+			],
+			[
+				"but",
+				"heroButtons"
+			],
+			[
+				"class",
+				"classList"
+			],
+			[
+				"clas",
+				"classList"
+			],
+			[
+				"in",
+				"innerHTML"
+			],
+			[
+				"hero",
+				"heroButtons"
+			],
+			[
+				"parent",
+				"parentElement"
+			],
+			[
+				"pa",
+				"parentElement"
+			],
+			[
+				"c",
+				"crosshair"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"flex-",
+				"flex-direction"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"fle",
+				"flex-direction"
+			],
+			[
+				"backgou",
+				"background-color"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"ali",
+				"align-content"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"backgru",
+				"background-color"
+			],
+			[
+				"backgorun",
+				"background-color"
+			],
+			[
+				"margin-t",
+				"margin-top"
+			],
+			[
+				"flow",
+				"flex-grow"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"at",
+				"auto"
+			],
+			[
+				"bacg",
+				"background-image"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"transfor",
+				"text-transform"
+			],
+			[
+				"backgroou",
+				"background-color"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"bore",
+				"border"
+			],
+			[
+				"baclg",
+				"background-color"
+			],
+			[
+				"texttr",
+				"text-transform"
+			],
+			[
+				"backou",
+				"background-position"
+			],
+			[
+				"list-st",
+				"list-style"
+			],
+			[
+				"font-st",
+				"font-style"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"backgroud",
+				"background"
+			],
+			[
+				"space",
+				"space-between"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"rig",
+				"right"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"destin",
+				"destinations"
+			],
+			[
+				"resp",
+				"responseObject"
+			],
+			[
+				"opt",
+				"option\tTag"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"pr",
+				"prepend"
+			],
+			[
+				"sit",
+				"siteTitle"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"border-bo",
+				"border-bottom"
+			],
+			[
+				"padt",
+				"padt"
+			],
+			[
+				"marg-",
+				"margin-bottom"
+			],
+			[
+				"b",
+				"border-color"
+			],
+			[
+				"fn",
+				"font"
+			],
+			[
+				"border-b",
+				"border-bottom"
+			],
+			[
+				"box-s",
+				"box-shadow"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"d",
+				"div\tTag"
+			],
+			[
+				"bacgroun",
+				"background-color"
+			],
+			[
+				"anim",
+				"animation-duration"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"margni",
+				"margin-top"
+			],
+			[
+				"form-",
+				"form-group"
+			],
+			[
+				"off",
+				"offset-wrapper"
+			],
+			[
+				"col-xs",
+				"col-xs-12"
+			],
+			[
+				"col",
+				"col-sm-1"
+			],
+			[
+				"backgorun-",
+				"background-size"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"t",
+				"text-bottom"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"font-s",
+				"font-size"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/matt/Documents/Development/react-apps/test/src/App.js",
+			"settings":
+			{
+				"buffer_size": 1388,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/matt/Documents/Development/react-apps/test/src/pages/Pg1.js",
+			"settings":
+			{
+				"buffer_size": 2153,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/matt/Documents/Development/react-apps/test/src/component/ExpenseList.js",
+			"settings":
+			{
+				"buffer_size": 472,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "import React from 'react';\nimport ReactDOM from 'react-dom';\nimport './index.css';\nimport App from './App';\n\nimport registerServiceWorker from './registerServiceWorker';\n\nReactDOM.render(<App />, document.getElementById('root'));\nregisterServiceWorker();\n",
+			"file": "/Users/matt/Documents/Development/react-apps/test/src/index.js",
+			"file_size": 285,
+			"file_write_time": 131541996700000000,
+			"settings":
+			{
+				"buffer_size": 255,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "packa",
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"j",
+				"JsPrettier: Format Code"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 540.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/matt/Documents/Development/react-apps/test/node_modules/react-icons/fa/anchor.js",
+		"/Users/matt/Documents/Development/react-apps/test/src/component/ExpenseList.sass",
+		"/Users/matt/Documents/Development/react-apps/test/src/index.js",
+		"/Users/matt/Documents/Development/react-apps/test/src/pages/pg1.sass",
+		"/Users/matt/Documents/Development/react-apps/test/src/App.css",
+		"/Users/matt/Documents/Development/react-apps/test/src/index.sass",
+		"/Users/matt/Documents/Development/react-apps/test/src/App.js",
+		"/Users/matt/Documents/Development/react-apps/test/src/App.sass",
+		"/Users/matt/Documents/Development/react-apps/test/src/index.css",
+		"/Users/matt/Documents/Development/react-apps/test/package.json",
+		"/Users/matt/Documents/Development/react-apps/crud-app/src/styles/sass/App.sass",
+		"/Users/matt/Documents/Development/react-apps/crud-app/src/components/ProjectItem.js",
+		"/Users/matt/Documents/Development/react-apps/crud-app/src/index.js",
+		"/Users/matt/Documents/Development/react-apps/crud-app/src/App.js",
+		"/Users/matt/Documents/Development/react-apps/crud-app/package.json",
+		"/Users/matt/Documents/Development/react-apps/crud-app/src/styles/sass/ProjectItem.sass",
+		"/Users/matt/Documents/Development/react-apps/crud-app/src/styles/sass/index.sass",
+		"/Users/matt/Documents/Development/react-apps/crud-app/public/manifest.json",
+		"/Users/matt/Documents/Development/react-apps/crud-app/src/App.css",
+		"/Users/matt/Documents/Development/mattpezzente.com/sass/partials/_modal.sass",
+		"/Users/matt/Documents/Development/mattpezzente.com/sass/partials/_home.sass",
+		"/Users/matt/Documents/Development/mattpezzente.com/sass/partials/_tags.sass",
+		"/Users/matt/Documents/Development/mattpezzente.com/sass/partials/_footer.sass",
+		"/Users/matt/Documents/Development/mattpezzente.com/sass/main.sass",
+		"/Users/matt/Documents/Development/mattpezzente.com/sass/modules/_all.sass",
+		"/Users/matt/Documents/Development/mattpezzente.com/sass/partials/_header.sass",
+		"/Users/matt/Documents/Development/mattpezzente.com/src/crud.js",
+		"/Users/matt/Documents/Development/mattpezzente.com/index.html",
+		"/Users/matt/Documents/Development/school/accessible-form/js/main.js",
+		"/Users/matt/Documents/Development/school/accessible-form/sass/main.sass",
+		"/Users/matt/Documents/Development/school/accessible-form/index.html",
+		"/Users/matt/Documents/Development/school/accessible-form/sass/partials/_product.sass",
+		"/Users/matt/Documents/Development/school/accessible-form/sass/modules/_all.sass",
+		"/Users/matt/Documents/Development/school/accessible-form/sass/modules/_utility.sass",
+		"/Users/matt/Documents/Development/mattpezzente.com/json/portfolio-pieces.json",
+		"/Users/matt/Documents/Development/mattpezzente.com/projects/accessible-form/index.html",
+		"/Users/matt/Documents/Development/school/accessible-form/sass/modules/_fonts.sass",
+		"/Users/matt/Documents/Development/mattpezzente.com/js/main.js",
+		"/Users/matt/Documents/Development/mattpezzente.com/projects/pokesearch/index.html",
+		"/Users/matt/Documents/Development/mattpezzente.com/projects/league_master/index.html",
+		"/Users/matt/Documents/Development/mattpezzente.com/.gitignore",
+		"/Users/matt/Documents/Development/mattpezzente.com/sass/partials/_reset.sass",
+		"/Users/matt/Documents/Development/mattpezzente.com/gulpfile.js",
+		"/Users/matt/Documents/Development/mattpezzente.com/projects/pokesearch/css/main.css",
+		"/Users/matt/Documents/Development/school/API_Search_App/sass/partials/_reset.sass",
+		"/Users/matt/Documents/Development/mattpezzente.com/projects/pokesearch/pokesearch.html",
+		"/Users/matt/Documents/Development/mattpezzente.com/projects/leagueon/css/main.css",
+		"/Users/matt/Documents/Development/mattpezzente.com/projects/leagueon/league_on.html",
+		"/Users/matt/Documents/Development/mattpezzente.com/projects/leagueon/js/landing.js",
+		"/Users/matt/Documents/Development/mattpezzente.com/projects/leagueon/summoner.html",
+		"/Users/matt/Documents/Development/mattpezzente.com/projects/leagueon/js/main.js",
+		"/Users/matt/Documents/Development/mattpezzente.com/projects/leagueon/js/fetch.js",
+		"/Users/matt/Documents/Development/mattpezzente.com/atmosreach/atmos_reach.html",
+		"/Users/matt/Documents/Development/mattpezzente.com/css/leagueon/main.css",
+		"/Users/matt/Documents/Development/mattpezzente.com/leagueon.html",
+		"/Users/matt/Documents/Development/mattpezzente.com/galex.html",
+		"/Users/matt/Documents/Development/mattpezzente.com/summoner.html",
+		"/Users/matt/Documents/Development/mattpezzente.com/leagueon/js/main.js",
+		"/Users/matt/Documents/Development/mattpezzente.com/leagueon/league_on.html",
+		"/Users/matt/Documents/Development/mattpezzente.com/leagueon/summoner.html",
+		"/Users/matt/Documents/Development/mattpezzente.com/galex/galex.html",
+		"/Users/matt/Documents/Development/mattpezzente.com/atmos_reach.html",
+		"/Users/matt/Documents/Development/mattpezzente.com/package.json",
+		"/Users/matt/Documents/Development/mattpezzente.com/leagueon/main.css",
+		"/Users/matt/Documents/Development/mattpezzente.com/config.json",
+		"/Users/matt/Documents/Development/school/mpezzente.bitbucket.io/gulpfile.js",
+		"/Users/matt/Documents/Development/school/api_search_app/css/main.css",
+		"/Users/matt/Documents/Development/school/api_search_app/package.json",
+		"/Users/matt/Documents/Development/school/api_search_app/css/css/main.css",
+		"/Users/matt/Documents/Development/school/api_search_app/css/style.css",
+		"/Users/matt/.bash_profile",
+		"/Users/matt/Downloads/Rokkitt and Roboto.zip",
+		"/Users/matt/Documents/Development/school/api_search_app/gulpfile.js",
+		"/Users/matt/Documents/Development/school/api_search_app/index.html",
+		"/Users/matt/Documents/Development/school/api_search_app/sass/main.sass",
+		"/Users/matt/Documents/Development/school/api_search_app/js/main.js",
+		"/Users/matt/Documents/Development/pezzenteproperties.com/wp-content/themes/pezzenteproperties/js/scripts.js",
+		"/Users/matt/Documents/Development/pezzenteproperties.com/wp-content/themes/pezzenteproperties/style.css",
+		"/Users/matt/Documents/Development/pezzenteproperties.com/wp-content/themes/pezzenteproperties/functions.php",
+		"/Users/matt/Documents/Development/pezzenteproperties.com/wp-content/themes/consulting/header.php",
+		"/Users/matt/Documents/Development/pezzenteproperties.com/wp-content/uploads/2017/06/cropped-pezzente-properties-site-header-title-old-saybrook-connecticut.png",
+		"/Users/matt/Documents/Development/pezzenteproperties.com/wp-content/uploads/2017/06/pezzente-properties-beach-front-chairs-old-saybrook-connecticut-1024x768.jpg",
+		"/Users/matt/Documents/Development/pezzenteproperties.com/wp-content/themes/consulting/style.css",
+		"/Users/matt/Documents/Development/school/mpezzente.bitbucket.io/js/events.js",
+		"/Users/matt/Documents/Development/school/mpezzente.bitbucket.io/css/style.css",
+		"/Users/matt/Documents/Development/school/mpezzente.bitbucket.io/js/content.js",
+		"/Users/matt/Documents/Development/school/mpezzente.bitbucket.io/index.html",
+		"/Users/matt/Documents/Development/school/mpezzente.bitbucket.io/events.html",
+		"/Users/matt/Documents/Development/school/mpezzente.bitbucket.io/destinations.html",
+		"/Users/matt/Documents/Development/school/mpezzente.bitbucket.io/connect.html",
+		"/Users/matt/Documents/Development/school/mpezzente.bitbucket.io/package.json",
+		"/Users/matt/Documents/Development/school/mpezzente.bitbucket.io/.gitignore",
+		"/Users/matt/Documents/Development/school/mpezzente.bitbucket.io/data/data.json",
+		"/Users/matt/Documents/Development/pezzenteproperties.com/wp-content/themes/pezzenteproperties/header.php",
+		"/Users/matt/Documents/Development/pezzenteproperties.com/wp-content/themes/consulting/admin/main/options/01.general-settings.php",
+		"/Users/matt/Documents/Development/pezzenteproperties.com/wp-content/themes/consulting/lib/functions/template-tags.php",
+		"/Users/matt/Documents/Development/pezzenteproperties.com/wp-content/themes/consulting/admin/main/framework.php",
+		"/Users/matt/Documents/Development/pezzenteproperties.com/wp-content/themes/pezzenteproperties/page.php",
+		"/Users/matt/Documents/Development/pezzenteproperties.com/wp-content/themes/consulting/admin/main/options/05.blog.php",
+		"/Users/matt/Documents/Development/pezzenteproperties.com/wp-includes/comment-template.php",
+		"/Users/matt/Documents/Development/pezzenteproperties.com/wp-includes/post-template.php",
+		"/Users/matt/Documents/Development/urbanninjaparkour-v2.com/wp-content/themes/pixgraphy/header.php",
+		"/Users/matt/Documents/Development/urbanninjaparkour-v2.com/wp-content/themes/urban/style.css",
+		"/Users/matt/Documents/Development/urbanninjaparkour-v2.com/wp-content/themes/urban/footer.php",
+		"/Users/matt/Documents/Development/urbanninjaparkour-v2.com/wp-content/themes/urban/js/scripts.js",
+		"/Users/matt/Documents/Development/urbanninjaparkour-v2.com/wp-content/themes/urban/home-template.php",
+		"/Users/matt/Documents/Development/urbanninjaparkour-v2.com/wp-content/themes/urban/functions.php",
+		"/Users/matt/Documents/Development/urbanninjaparkour-v2.com/wp-content/themes/urban/template-about-us.php",
+		"/Users/matt/Documents/Development/urbanninjaparkour-v2.com/wp-content/themes/urban/template-contact-us.php",
+		"/Users/matt/Documents/Development/urbanninjaparkour-v2.com/wp-content/themes/urban/template-homepage.php",
+		"/Users/matt/Documents/Development/urbanninjaparkour-v2.com/wp-content/themes/urban/template-prices.php",
+		"/Users/matt/Documents/Development/urbanninjaparkour-V2.com/wp-config.php",
+		"/Users/matt/Documents/Development/urbanninjaathletics.com/wp-content/themes/athletic/page.php",
+		"/Users/matt/Documents/Development/urbanninjaathletics.com/wp-content/themes/pixgraphy/header.php",
+		"/Users/matt/Documents/Development/urbanninjaathletics.com/wp-content/themes/athletic/style.css",
+		"/Users/matt/Documents/Development/urbanninjaparkour.com/wp-content/themes/urban/footer.php",
+		"/Users/matt/Documents/Development/urbanninjaparkour.com/wp-content/themes/urban/style.css",
+		"/Users/matt/Documents/Development/urbanninjaparkour.com/wp-content/themes/urban/functions.php",
+		"/Users/matt/Documents/Development/urbanninjaparkour.com/wp-content/themes/urban/php/recaptchalib.php",
+		"/Users/matt/Documents/Development/urbanninjaparkour.com/wp-content/themes/urban/template-contact-us.php",
+		"/Users/matt/Documents/Development/urbanninjaparkour.com/wp-content/themes/urban/email.php",
+		"/Users/matt/Documents/Development/urbanninjaparkour.com/wp-content/themes/urban/template-contact-us",
+		"/Users/matt/Documents/Development/urbanninjaparkour.com/wp-content/themes/urban/template-homepage.php",
+		"/Users/matt/Documents/Development/urbanninjaparkour.com/wp-content/themes/urban/template-birthday-parties.php",
+		"/Users/matt/Documents/Development/urbanninjaparkour.com/wp-content/themes/urban/template-jams-events.php",
+		"/Users/matt/Documents/Development/urbanninjaparkour.com/wp-content/themes/urban/template-schedule.php",
+		"/Users/matt/Documents/Development/urbanninjaparkour.com/wp-content/themes/urban/template-prices.php",
+		"/Users/matt/Documents/Development/urbanninjaparkour.com/wp-content/themes/urban/template-about-us.php"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/matt/Documents/Development/react-apps/test/src/App.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1388,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								750,
+								750
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/matt/Documents/Development/react-apps/test/src/pages/Pg1.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								41,
+								41
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": false,
+							"open_with_edit": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/matt/Documents/Development/react-apps/test/src/component/ExpenseList.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 472,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								82,
+								82
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": false,
+							"open_with_edit": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/matt/Documents/Development/react-apps/test/src/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 255,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								108,
+								108
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "react-test.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 180.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

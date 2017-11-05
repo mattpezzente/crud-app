@@ -7,21 +7,24 @@ $base-font-size: 1rem
 
 .flex-box
 	display: flex
-	justify-content: space-between
+	justify-content: left
 
 .form-project
 	@extend %center-object
 	max-width: $max-width
 
-	>label 
+	>label
 		@extend %center-object
 		display: block
 		margin-bottom: 1rem
 		font-size: $base-font-size + 0.5rem
 
-		>input
+		>input, textarea
 			width: 100%
 			font-size: $base-font-size
+
+		>textarea
+			height: 10rem
 
 	fieldset
 		margin-bottom: 1rem
@@ -30,3 +33,36 @@ $base-font-size: 1rem
 		@extend %center-object
 		display: block
 		margin-bottom: 1rem
+
+ul
+	@extend %center-object, .flex-box
+	max-width: 50rem
+	list-style-type: none
+	border: 2px solid #eee
+  margin: 0
+  padding: 0
+
+.project-item
+  width: calc(100%/3)
+  margin: 1rem
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

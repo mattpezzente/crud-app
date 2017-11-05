@@ -1,68 +1,98 @@
 import React, { Component } from 'react';
+import ProjectItem from './components/ProjectItem';
 import './styles/css/App.css';
 
 class App extends Component {
-  constructor(){
-    super()
+  constructor(props){
+    super(props)
+    this.state = {
+      tempListItem: {
+        id: 0,
+        title: '',
+        desc: '',
+        status: 0
+      },
+      listItems: []
+    }
+
     this.addProject = this.addProject.bind(this)
-    this.id = 0
+    this.setTitle = this.setTitle.bind(this)
+    this.setDescription = this.setDescription.bind(this)
+    this.setStatus = this.setStatus.bind(this)
   }
 
   render() {
     return (
       <div className="App">
-        <form class="form-project" action="#" method="GET">
-          <label>Project Title<input ref="title" type="text" name="p-title"/></label>
-          <label>Project Description<input ref="desc" type="text" name="p-description"/></label>
-          <fieldset class="fieldset-project">
+        <form className="form-project" action="#" method="GET">
+          <label>Project Title<input onChange={this.setTitle} type="text" name="p-title" placeholder="Title"/></label>
+          <label>Project Description<textarea onChange={this.setDescription} type="text" name="p-description" placeholder="Enter project description..."></textarea></label>
+          <fieldset className="fieldset-project">
             <legend>Project Status</legend>
-            <div class="flex-box">
-              <label>In Progress<input ref="status-1" type="radio" name="status"/></label>
-              <label>Inactive<input ref="status-2" type="radio" name="status"/></label>
-              <label>Active<input ref="status-3" type="radio" name="status"/></label>
+            <div className="flex-box">
+              <label>Inactive<input defaultChecked={true} onChange={this.setStatus} type="radio" name="status" data-num="1"/></label>
+              <label>Active<input onChange={this.setStatus} type="radio" name="status" data-num="2"/></label>
+              <label>Complete<input onChange={this.setStatus} type="radio" name="status" data-num="3"/></label>
             </div>
           </fieldset>
           <button type="submit" onClick={this.addProject}>Create Project</button>
         </form>
-        <ul class="projects">
+        <ul className="list-items">          
         </ul>
       </div>
     );
   }
 
+  setTitle(e) {
+    let tempListItem = this.state.tempListItem
+    e.preventDefault()
+    tempListItem.title = e.target.value
+    this.setState({tempListItem})
+  }
+
+  setDescription(e) {
+    let tempListItem = this.state.tempListItem
+    e.preventDefault()
+    tempListItem.desc = e.target.value
+    this.setState({tempListItem})
+  }
+
+  setStatus(e) {
+    let tempListItem = this.state.tempListItem
+    switch (e.target.dataset.num) {
+      case '1':
+        tempListItem.status = 1
+        break;
+      case '2':
+        tempListItem.status = 2
+        break;
+      case '3':
+        tempListItem.status = 3
+        break;
+      default:
+        break;
+    }
+
+    this.setState({tempListItem})
+  }
+
   addProject(e) {
     e.preventDefault()
-
-    this.title = this.refs.title.value
-    this.desc = this.refs.desc.value
-
+    let tempListItem = this.state.tempListItem
+    let listItems = this.state.listItems
     let tempProjectItem = new ProjectItem(
-      this.id++,
-      this.title,
-      this.desc
-    )
+        tempListItem.id++,
+        tempListItem.title,
+        tempListItem.desc,
+        tempListItem.status
+      )
+
     tempProjectItem.create()
-  }
-}
+    listItems.push(tempProjectItem)
+    this.setState({listItems: listItems})
 
-
-class ProjectItem extends Component {
-  constructor(id, title, desc) {
-    super()
-    this.id = id
-    this.title = title
-    this.desc = desc
-    //this.status = status
-  }
-
-  create() {
-    let insertionPoint = document.querySelector('.projects')
-    let tempHTML = `<li id="project-${this.id} status-${this.status}">`
-    tempHTML += `<h2>${this.title}</h2>`
-    tempHTML += `<h3>${this.desc}</h3>`
-    tempHTML += `</li>`
-
-    insertionPoint.insertAdjacentHTML('afterbegin', tempHTML)
+    console.log(this.state.listItems)
+    
   }
 }
 
