@@ -7,6 +7,7 @@ class App extends Component {
   constructor(props){
     super(props)
     this.state = {
+      editable: false,
       tempProject: {
         id: 0,
         title: '',
@@ -30,8 +31,8 @@ class App extends Component {
           <fieldset className="main-fieldset">
             <legend>Project Details</legend>
             <div className="flex-box">
-              <label>Title<input required onChange={this.setTitle} type="text" name="p-title" placeholder="Title"/></label>
-              <label>Description<textarea onChange={this.setDescription} type="text" name="p-description" placeholder="Enter project description..."></textarea></label>
+              <label>* Title<input required onChange={this.setTitle} type="text" name="p-title" placeholder="Project Title..."/></label>
+              <label>Description<textarea onChange={this.setDescription} type="text" name="p-description" placeholder="Project Description..."></textarea></label>
             </div>
           </fieldset>
           <fieldset className="activity-fieldset">
@@ -54,22 +55,26 @@ class App extends Component {
   }
 
   setTitle(e) {
-    let tempProject = this.state.tempProject
-    e.preventDefault()
-    tempProject.title = e.target.value
-    this.setState({tempProject})
+    console.log(e.target.validity.valid)
+    if (e.target.validity.valid) {
+      this.setState({editable: true})
+      let tempProject = this.state.tempProject
+      e.preventDefault()
+      tempProject.title = e.target.value
+      this.setState({tempProject})
+      this.removeError()
+    }
+    else {
+      this.setState({editable: false})
+      this.showError()
+    }
   }
 
   setDescription(e) {
-    if (e.target.value.length > 0) {
-      let tempProject = this.state.tempProject
-      e.preventDefault()
-      tempProject.desc = e.target.value
-      this.setState({tempProject})
-    }
-    else {
-      // console.log(e)
-    }
+    let tempProject = this.state.tempProject
+    e.preventDefault()
+    tempProject.desc = e.target.value
+    this.setState({tempProject})
   }
 
   setStatus(e) {
@@ -93,27 +98,45 @@ class App extends Component {
 
   addProject(e) {
     e.preventDefault()
-    let tempProject = this.state.tempProject
-    let projects = this.state.projects
-    let id = 0
+    if (this.state.editable) {
+      let tempProject = this.state.tempProject
+      let projects = this.state.projects
+      let id = 0
 
-    for (let i = 0; i < projects.length; i++) {
-      if (id === projects[i].state.id) {
-        i = 0
+      for (let i = 0; i < projects.length; i++) {
+        if (id === projects[i].state.id) {
+          i = 0
+        }
+        id++;
       }
-      id++;
-    }
 
-    let tempProjectItem = new ProjectItem(
-        id,
-        tempProject.title,
-        tempProject.desc,
-        tempProject.status
-      )
-    tempProjectItem.create()
-    projects.unshift(tempProjectItem)
-    this.setState({projects: projects})
-    this.saveLocal()
+      let tempProjectItem = new ProjectItem(
+          id,
+          tempProject.title,
+          tempProject.desc,
+          tempProject.status
+        )
+      tempProjectItem.create()
+      projects.unshift(tempProjectItem)
+      this.setState({projects: projects})
+      this.saveLocal()
+    }
+    else {
+      this.showError()
+    }
+  }
+
+  showError() {
+    if (!document.querySelector('.title-error')) {
+      let tempHTML = `<label class="title-error">Error, field cannot be empty</label>`
+      document.querySelector('input[name="p-title"]').insertAdjacentHTML('afterend', tempHTML)
+    }
+  }
+
+  removeError() {
+    if (document.querySelector('.title-error')) {
+      document.querySelector('.title-error').remove()
+    }
   }
 
   saveLocal() {
