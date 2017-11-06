@@ -9,3 +9,18 @@ The application implements local storage to store user inputed project items for
 When filling out the input fields, the only required field is the Title field. This uses the Validity API to validate an empty field, while blocking the ability to create a new project item.
 
 ## Installation
+
+To install, first begin by cloning this repository:
+```
+git clone https://github.com/salogost/crud-app.github.com
+```
+
+Then, install the npm dependencies:
+```
+npm install
+```
+
+Next, run the build by running:
+```
+npm run start
+```
