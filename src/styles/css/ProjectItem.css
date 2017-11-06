@@ -1,0 +1,9 @@
+.delete {
+  background: none;
+  border: none;
+  float: right;
+  font-size: 1.5rem;
+  cursor: pointer; }
+
+.delete:hover {
+  opacity: 0.5; }

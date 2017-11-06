@@ -1,4 +1,4 @@
-.form-project, .form-project > label, .form-project button, ul {
+.form-project, .form-project button, .main-fieldset label, ul {
   margin-left: auto;
   margin-right: auto; }
 
@@ -7,23 +7,11 @@
   flex-wrap: wrap;
   justify-content: space-between; }
 
+h1 {
+  text-align: center; }
+
 .form-project {
   max-width: 20rem; }
-  .form-project > label {
-    display: block;
-    margin-bottom: 1rem;
-    font-size: 1.5rem; }
-    .form-project > label > input, .form-project > label textarea {
-      margin-top: 0.25rem;
-      padding: 0.5rem;
-      width: 100%;
-      font-size: 1rem; }
-    .form-project > label > textarea {
-      height: 10rem; }
-  .form-project fieldset {
-    margin-bottom: 1rem; }
-    .form-project fieldset label, .form-project fieldset input[type="radio"] {
-      cursor: pointer !important; }
   .form-project button {
     display: block;
     background: #eee;
@@ -36,6 +24,28 @@
   .form-project button:hover {
     opacity: 0.5; }
 
+.main-fieldset {
+  margin-bottom: 1rem; }
+  .main-fieldset label {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: 1.5rem; }
+    .main-fieldset label input, .main-fieldset label textarea {
+      display: block;
+      margin-top: 0.25rem;
+      padding: 0.5rem;
+      width: 94%;
+      font-size: 1rem; }
+    .main-fieldset label textarea {
+      height: 10rem; }
+
+.activity-fieldset {
+  margin-bottom: 1rem;
+  padding: 1rem; }
+  .activity-fieldset label, .activity-fieldset input[type="radio"] {
+    cursor: pointer !important; }
+
 ul {
   justify-content: left;
   max-width: 50rem;
@@ -44,21 +54,30 @@ ul {
     list-style-type-padding: 0 !important; }
 
 .project-item {
-  width: calc(100%/3 - 4.4rem);
+  background: #ddd;
+  color: #000;
   margin: 1rem;
   padding: 1rem;
-  background: #ddd;
-  color: #000; }
+  width: calc(100%/3 - 4.4rem); }
 
 h2 {
   margin: 0;
   text-align: center; }
 
+.status {
+  float: left;
+  margin-top: -1.5rem;
+  margin-left: -1.5rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 100%;
+  border: 0.1rem solid #eee; }
+
 .status-1 {
-  border: 0.2rem solid grey; }
+  background: #9db0a2; }
 
 .status-2 {
-  border: 0.2rem solid red; }
+  background: #d21f37; }
 
 .status-3 {
-  border: 0.2rem solid green; }
+  background: #70da3b; }

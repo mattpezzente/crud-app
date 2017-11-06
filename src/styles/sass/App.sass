@@ -10,30 +10,12 @@ $base-font-size: 1rem
 	flex-wrap: wrap
 	justify-content: space-between
 
+h1
+	text-align: center
+
 .form-project
 	@extend %center-object
 	max-width: $max-width
-
-	>label
-		@extend %center-object
-		display: block
-		margin-bottom: 1rem
-		font-size: $base-font-size + 0.5rem
-
-		>input, textarea
-			margin-top: 0.25rem
-			padding: 0.5rem
-			width: 100%
-			font-size: $base-font-size
-
-		>textarea
-			height: 10rem
-
-	fieldset
-		margin-bottom: 1rem
-
-		label, input[type="radio"]
-			cursor: pointer!important
 
 	button
 		@extend %center-object
@@ -48,6 +30,33 @@ $base-font-size: 1rem
 
 	button:hover
 		opacity: 0.5
+	
+.main-fieldset
+	margin-bottom: 1rem
+
+	label
+		@extend %center-object
+		display: block
+		width: 100%
+		margin-bottom: 1rem
+		font-size: $base-font-size + 0.5rem
+
+		input, textarea
+			display: block
+			margin-top: 0.25rem
+			padding: 0.5rem
+			width: 94%
+			font-size: $base-font-size
+
+		textarea
+			height: 10rem
+
+.activity-fieldset
+	margin-bottom: 1rem
+	padding: 1rem
+
+	label, input[type="radio"]
+		cursor: pointer!important
 
 ul
 	@extend %center-object, .flex-box
@@ -58,24 +67,33 @@ ul
   padding: 0!important
 
 .project-item
-  width: calc(100%/3 - 4.4rem)
-  margin: 1rem
-  padding: 1rem
   background: #ddd
   color: #000
+  margin: 1rem
+  padding: 1rem
+  width: calc(100%/3 - 4.4rem)
 
 h2
 	margin: 0
 	text-align: center
 
+.status 
+	float: left
+	margin-top: -1.5rem
+	margin-left: -1.5rem
+	height: 1.5rem
+	width: 1.5rem
+	border-radius: 100%
+	border: 0.1rem solid #eee
+
 .status-1
-	border: 0.2rem solid grey
+	background: #9db0a2
 
 .status-2
-	border: 0.2rem solid red
+	background: #d21f37
 
 .status-3
-	border: 0.2rem solid green
+	background: #70da3b
 
 
 

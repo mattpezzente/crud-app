@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 body {
+  margin: 0;
+  padding: 0;
   color: #eee;
   background: #444; }
+
+h1, h2, h3, p, label, legend, input, button {
+  font-family: 'Montserrat', sans-serif; }
