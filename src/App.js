@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import FaAdd from 'react-icons/lib/ti/document-add';
 import ProjectItem from './components/ProjectItem';
 import './styles/css/App.css';
 
@@ -6,13 +7,13 @@ class App extends Component {
   constructor(props){
     super(props)
     this.state = {
-      tempListItem: {
+      tempProject: {
         id: 0,
         title: '',
         desc: '',
-        status: 0
+        status: 1
       },
-      listItems: []
+      projects: []
     }
 
     this.addProject = this.addProject.bind(this)
@@ -35,7 +36,7 @@ class App extends Component {
               <label>Complete<input onChange={this.setStatus} type="radio" name="status" data-num="3"/></label>
             </div>
           </fieldset>
-          <button type="submit" onClick={this.addProject}>Create Project</button>
+          <button type="submit" onClick={this.addProject}>Create Project <FaAdd /></button>
         </form>
         <ul className="list-items">          
         </ul>
@@ -43,56 +44,82 @@ class App extends Component {
     );
   }
 
+  componentDidMount() {
+    this.loadLocal();
+  }
+
   setTitle(e) {
-    let tempListItem = this.state.tempListItem
+    let tempProject = this.state.tempProject
     e.preventDefault()
-    tempListItem.title = e.target.value
-    this.setState({tempListItem})
+    tempProject.title = e.target.value
+    this.setState({tempProject})
   }
 
   setDescription(e) {
-    let tempListItem = this.state.tempListItem
+    let tempProject = this.state.tempProject
     e.preventDefault()
-    tempListItem.desc = e.target.value
-    this.setState({tempListItem})
+    tempProject.desc = e.target.value
+    this.setState({tempProject})
   }
 
   setStatus(e) {
-    let tempListItem = this.state.tempListItem
+    let tempProject = this.state.tempProject
     switch (e.target.dataset.num) {
       case '1':
-        tempListItem.status = 1
+        tempProject.status = 1
         break;
       case '2':
-        tempListItem.status = 2
+        tempProject.status = 2
         break;
       case '3':
-        tempListItem.status = 3
+        tempProject.status = 3
         break;
       default:
         break;
     }
 
-    this.setState({tempListItem})
+    this.setState({tempProject})
   }
 
   addProject(e) {
     e.preventDefault()
-    let tempListItem = this.state.tempListItem
-    let listItems = this.state.listItems
+    let tempProject = this.state.tempProject
+    let projects = this.state.projects
     let tempProjectItem = new ProjectItem(
-        tempListItem.id++,
-        tempListItem.title,
-        tempListItem.desc,
-        tempListItem.status
+        tempProject.id++,
+        tempProject.title,
+        tempProject.desc,
+        tempProject.status
       )
 
     tempProjectItem.create()
-    listItems.push(tempProjectItem)
-    this.setState({listItems: listItems})
+    projects.push(tempProjectItem)
+    this.setState({projects: projects})
+    this.saveLocal()
+  }
 
-    console.log(this.state.listItems)
-    
+  saveLocal() {
+    localStorage.setItem('projects', JSON.stringify(this.state.projects))
+  }
+
+  loadLocal() {
+    if (localStorage.getItem('projects')) {
+      let localProjects = JSON.parse(localStorage.getItem('projects'));
+      let projectList = [];
+      for (let i = 0; i < localProjects.length; i++) {
+        let tempProjectItem = new ProjectItem(
+            localProjects[i].id,
+            localProjects[i].title,
+            localProjects[i].desc,
+            localProjects[i].status
+          )
+        projectList.unshift(tempProjectItem)
+      }
+      for (let i = 0; i < projectList.length; i++) {
+        projectList[i].create();
+      }
+      console.log(projectList);
+    }
   }
 }
 

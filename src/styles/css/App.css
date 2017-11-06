@@ -4,7 +4,8 @@
 
 .flex-box, ul {
   display: flex;
-  justify-content: left; }
+  flex-wrap: wrap;
+  justify-content: space-between; }
 
 .form-project {
   max-width: 20rem; }
@@ -13,23 +14,51 @@
     margin-bottom: 1rem;
     font-size: 1.5rem; }
     .form-project > label > input, .form-project > label textarea {
+      margin-top: 0.25rem;
+      padding: 0.5rem;
       width: 100%;
       font-size: 1rem; }
     .form-project > label > textarea {
       height: 10rem; }
   .form-project fieldset {
     margin-bottom: 1rem; }
+    .form-project fieldset label, .form-project fieldset input[type="radio"] {
+      cursor: pointer !important; }
   .form-project button {
     display: block;
-    margin-bottom: 1rem; }
+    background: #eee;
+    border: 0.1rem solid #444;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    cursor: pointer; }
+  .form-project button:hover {
+    opacity: 0.5; }
 
 ul {
+  justify-content: left;
   max-width: 50rem;
   list-style-type: none;
-  border: 2px solid #eee;
-    border-margin: 0;
-    border-padding: 0; }
+    list-style-type-margin: 0;
+    list-style-type-padding: 0 !important; }
 
 .project-item {
-  width: calc(100%/3);
-  margin: 1rem; }
+  width: calc(100%/3 - 4.4rem);
+  margin: 1rem;
+  padding: 1rem;
+  background: #ddd;
+  color: #000; }
+
+h2 {
+  margin: 0;
+  text-align: center; }
+
+.status-1 {
+  border: 0.2rem solid grey; }
+
+.status-2 {
+  border: 0.2rem solid red; }
+
+.status-3 {
+  border: 0.2rem solid green; }
