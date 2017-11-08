@@ -98,6 +98,7 @@ class App extends Component {
 
   addProject(e) {
     e.preventDefault()
+    e.target.parentElement.reset()
     if (this.state.editable) {
       let tempProject = this.state.tempProject
       let projects = this.state.projects
