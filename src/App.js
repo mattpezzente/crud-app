@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Home from './pages/Home'
@@ -11,26 +11,18 @@ import './styles/css/App.css'
 class App extends Component {
   render() {
     return (
-      <div>
-      <Header />
       <Router>
-        <div className="App">        
-            <ul>
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/tool-1">Tool 1</Link></li>
-              <li><Link to="/tool-2">Tool 2</Link></li>
-              <li><Link to="/tool-3">Tool 3</Link></li>
-            </ul>
+        <div className="App">
+          <Header />    
             <section>
               <Route exact path="/" component={Home} />
               <Route exact path="/tool-1" component={Pg1} />
               <Route exact path="/tool-2" component={Pg2} />
               <Route exact path="/tool-3" component={Pg3} />
             </section>
+          <Footer />
         </div>
       </Router>
-      <Footer />
-      </div>
     );
   }
 }

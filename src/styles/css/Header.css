@@ -1,0 +1,21 @@
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background: #222; }
+  .main-nav > * {
+    width: calc(100%/2 - 2rem); }
+  .main-nav h1 a {
+    color: #eee; }
+  .main-nav ul {
+    text-align: right;
+    max-width: 20rem; }
+    .main-nav ul li {
+      text-align: center;
+      display: block;
+      width: calc(100%/4 - 0.125rem);
+      border-right: 2px solid #ddd; }
+    .main-nav ul li:last-child {
+      border-right: none; }

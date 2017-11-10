@@ -1,0 +1,29 @@
+.main-nav
+	display: flex
+	align-items: center
+	justify-content: space-between
+	flex-wrap: wrap
+	flex-direction: row
+	background: #222
+	
+	>*
+		width: calc(100%/2 - 2rem)
+
+	h1
+
+		a
+			color: #eee
+
+	ul
+		text-align: right
+		max-width: 20rem
+
+		li
+			text-align: center
+			display: block
+			width: calc(100%/4 - 0.125rem)
+			border-right: 2px solid #ddd
+
+		li:last-child
+			border-right: none
+			

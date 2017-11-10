@@ -1,0 +1,19 @@
+.galItem {
+  margin-bottom: 1rem;
+  width: calc(100%/3 - 2rem);
+  max-height: 12.5rem;
+  margin-right: 2rem; }
+  .galItem h3 {
+    margin-top: 0.5rem;
+    text-shadow: 1px 1px 3px #000;
+    text-align: center; }
+
+.img-container {
+  width: 100%;
+  max-height: 10rem;
+  border: 0.05rem solid #222;
+  box-shadow: 2px 2px 4px #111;
+  overflow: hidden; }
+  .img-container img {
+    margin-left: -2rem;
+    max-width: 125%; }
