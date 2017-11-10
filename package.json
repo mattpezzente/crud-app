@@ -4,14 +4,20 @@
   "private": true,
   "homepage": "https://salogost.github.io/crud-app",
   "dependencies": {
+    "dns": "^0.2.2",
+    "net": "^1.0.2",
     "node-sass-chokidar": "0.0.3",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-icons": "^2.2.7",
-    "react-scripts": "1.0.14"
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.14",
+    "socks-proxy-agent": "^3.0.1",
+    "themeparks": "^4.6.1"
   },
   "scripts": {
-    "deploy" : "npm run build&&gh-pages -d build",
+    "deploy": "npm run build&&gh-pages -d build",
     "start": "react-scripts start watch-css",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

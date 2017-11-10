@@ -1,0 +1,5 @@
+li {
+  width: calc(100%/3 - 2rem);
+  margin-right: 2rem; }
+  li img {
+    max-width: 100%; }
