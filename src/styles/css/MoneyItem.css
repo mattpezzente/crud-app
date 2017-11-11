@@ -1,0 +1,8 @@
+.money-item button {
+  font-size: 1.25rem;
+  color: #eee;
+  border: none;
+  background: none;
+  cursor: pointer; }
+  .money-item button:hover {
+    opacity: 0.5; }

@@ -1,0 +1,15 @@
+.money-list-table {
+  padding: 2rem;
+  width: 100%; }
+  .money-list-table th {
+    color: #abbfb4;
+    text-align: left; }
+  .money-list-table td {
+    font-size: 0.875rem;
+    text-align: left; }
+  .money-list-table .money-list-total {
+    padding: 0.5rem 0;
+    display: block;
+    min-width: 12.5rem;
+    max-width: 20rem;
+    border-top: 2px solid #eee; }

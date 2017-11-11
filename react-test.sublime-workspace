@@ -4,6 +4,58 @@
 		"selected_items":
 		[
 			[
+				"selec",
+				"selectValue"
+			],
+			[
+				"sel",
+				"selectValue"
+			],
+			[
+				"flex",
+				"flex"
+			],
+			[
+				"galler",
+				"galleryImages"
+			],
+			[
+				"local",
+				"localStorage"
+			],
+			[
+				"filter",
+				"filterPosts"
+			],
+			[
+				"sear",
+				"searchItems〔variable〕"
+			],
+			[
+				"search",
+				"searchTerm"
+			],
+			[
+				"searc",
+				"searchItems〔variable〕"
+			],
+			[
+				"Search",
+				"SearchButton"
+			],
+			[
+				"Sear",
+				"SearchResults"
+			],
+			[
+				"gall",
+				"galleryImages〔variable〕"
+			],
+			[
+				"pi",
+				"pictures"
+			],
+			[
 				"text",
 				"text-align"
 			],
@@ -186,10 +238,6 @@
 			[
 				"padd",
 				"padding"
-			],
-			[
-				"flex",
-				"flex-direction"
 			],
 			[
 				"background",
@@ -466,50 +514,6 @@
 			[
 				"form-",
 				"form-group"
-			],
-			[
-				"off",
-				"offset-wrapper"
-			],
-			[
-				"col-xs",
-				"col-xs-12"
-			],
-			[
-				"col",
-				"col-sm-1"
-			],
-			[
-				"backgorun-",
-				"background-size"
-			],
-			[
-				"te",
-				"text-align"
-			],
-			[
-				"trans",
-				"transition"
-			],
-			[
-				"tran",
-				"transition"
-			],
-			[
-				"inline",
-				"inline-block"
-			],
-			[
-				"t",
-				"text-bottom"
-			],
-			[
-				"wid",
-				"width"
-			],
-			[
-				"font-s",
-				"font-size"
 			]
 		]
 	},
@@ -576,6 +580,24 @@
 	},
 	"file_history":
 	[
+		"/Users/matt/Documents/Development/react-apps/crud-app/src/styles/sass/GalleryItem.sass",
+		"/Users/matt/Documents/Development/react-apps/crud-app/src/styles/sass/Header.sass",
+		"/Users/matt/Documents/Development/react-apps/crud-app/src/styles/sass/Footer.sass",
+		"/Users/matt/Documents/Development/react-apps/crud-app/src/components/Header.js",
+		"/Users/matt/Documents/Development/react-apps/crud-app/src/components/GalleryItem.js",
+		"/Users/matt/Documents/Development/react-apps/crud-app/src/components/Footer.js",
+		"/Users/matt/Documents/Development/react-apps/crud-app/src/App.js",
+		"/Users/matt/Documents/Development/react-apps/crud-app/src/styles/sass/index.sass",
+		"/Users/matt/Documents/Development/react-apps/crud-app/src/pages/Pg2.js",
+		"/Users/matt/Documents/Development/react-apps/test/src/components/SearchButton.js",
+		"/Users/matt/Documents/Development/react-apps/test/src/App.css",
+		"/Users/matt/Documents/Development/react-apps/test/src/components/Nav.js",
+		"/Users/matt/Documents/Development/react-apps/crud-app/src/pages/Pg1.js",
+		"/Users/matt/Documents/Development/react-apps/crud-app/src/styles/sass/Gallery.sass",
+		"/Users/matt/Documents/Development/react-apps/crud-app/src/components/Gallery.js",
+		"/Users/matt/Documents/Development/react-apps/crud-app/src/styles/sass/Pg2.sass",
+		"/Users/matt/Documents/Development/react-apps/crud-app/src/index.js",
+		"/Users/matt/Documents/Development/react-apps/crud-app/webpack.config.js",
 		"/Users/matt/Documents/Development/school/property-site/sass/modules/_fonts.sass",
 		"/Users/matt/Documents/Development/school/property-site/sass/partials/_home.sass",
 		"/Users/matt/Documents/Development/school/property-site/sass/modules/_utility.sass",
@@ -588,23 +610,14 @@
 		"/Users/matt/Documents/Development/school/property-site/css/main.css",
 		"/Users/matt/Documents/Development/school/property-site/sass/partials/main.sass",
 		"/Users/matt/Documents/Development/school/property-site/js/main.js",
-		"/Users/matt/Documents/Development/react-apps/crud-app/src/components/Header.js",
-		"/Users/matt/Documents/Development/react-apps/crud-app/src/components/Footer.js",
-		"/Users/matt/Documents/Development/react-apps/crud-app/src/App.js",
-		"/Users/matt/Documents/Development/react-apps/crud-app/src/styles/sass/Header.sass",
-		"/Users/matt/Documents/Development/react-apps/crud-app/src/styles/sass/Footer.sass",
 		"/Users/matt/Documents/Development/react-apps/crud-app/src/styles/sass/Home.sass",
 		"/Users/matt/Documents/Development/react-apps/crud-app/src/styles/sass/Pg3.sass",
 		"/Users/matt/Documents/Development/react-apps/crud-app/src/pages/Pg3.js",
-		"/Users/matt/Documents/Development/react-apps/crud-app/src/pages/Pg2.js",
 		"/Users/matt/Documents/Development/react-apps/crud-app/src/pages/Home.js",
 		"/Users/matt/Documents/Development/react-apps/crud-app/src/styles/sass/App.sass",
 		"/Users/matt/Documents/Development/react-apps/crud-app/src/styles/css/Pg1.css",
-		"/Users/matt/Documents/Development/react-apps/crud-app/src/index.js",
 		"/Users/matt/Documents/Development/react-apps/crud-app/src/components/Main.js",
-		"/Users/matt/Documents/Development/react-apps/crud-app/src/pages/Pg1.js",
 		"/Users/matt/Documents/Development/react-apps/crud-app/src/routes/index.js",
-		"/Users/matt/Documents/Development/react-apps/crud-app/src/styles/sass/Pg2.sass",
 		"/Users/matt/Documents/Development/react-apps/crud-app/src/styles/sass/Pg1.sass",
 		"/Users/matt/Documents/Development/react-apps/crud-app/README.md",
 		"/Users/matt/Documents/Development/react-apps/crud-app/node_modules/react-router-dom/es/MemoryRouter.js",
@@ -612,7 +625,6 @@
 		"/Users/matt/Documents/Development/react-apps/crud-app/src/components/ProjectItem.js",
 		"/Users/matt/Documents/Development/react-apps/crud-app/src/styles/css/App.css",
 		"/Users/matt/Documents/Development/react-apps/crud-app/src/styles/sass/ProjectItem.sass",
-		"/Users/matt/Documents/Development/react-apps/crud-app/src/styles/sass/index.sass",
 		"/Users/matt/Documents/Development/react-apps/crud-app/public/index.html",
 		"/Users/matt/Documents/Development/react-apps/crud-app/src/styles/css/ProjectItem.css",
 		"/Users/matt/Documents/Development/react-apps/crud-app/public/manifest.json",
@@ -695,15 +707,7 @@
 		"/Users/matt/Documents/Development/pezzenteproperties.com/wp-content/themes/consulting/admin/main/options/01.general-settings.php",
 		"/Users/matt/Documents/Development/pezzenteproperties.com/wp-content/themes/consulting/lib/functions/template-tags.php",
 		"/Users/matt/Documents/Development/pezzenteproperties.com/wp-content/themes/consulting/admin/main/framework.php",
-		"/Users/matt/Documents/Development/pezzenteproperties.com/wp-content/themes/pezzenteproperties/page.php",
-		"/Users/matt/Documents/Development/pezzenteproperties.com/wp-content/themes/consulting/admin/main/options/05.blog.php",
-		"/Users/matt/Documents/Development/pezzenteproperties.com/wp-includes/comment-template.php",
-		"/Users/matt/Documents/Development/pezzenteproperties.com/wp-includes/post-template.php",
-		"/Users/matt/Documents/Development/urbanninjaparkour-v2.com/wp-content/themes/pixgraphy/header.php",
-		"/Users/matt/Documents/Development/urbanninjaparkour-v2.com/wp-content/themes/urban/style.css",
-		"/Users/matt/Documents/Development/urbanninjaparkour-v2.com/wp-content/themes/urban/footer.php",
-		"/Users/matt/Documents/Development/urbanninjaparkour-v2.com/wp-content/themes/urban/js/scripts.js",
-		"/Users/matt/Documents/Development/urbanninjaparkour-v2.com/wp-content/themes/urban/home-template.php"
+		"/Users/matt/Documents/Development/pezzenteproperties.com/wp-content/themes/pezzenteproperties/page.php"
 	],
 	"find":
 	{
@@ -749,7 +753,7 @@
 	},
 	"input":
 	{
-		"height": 37.0
+		"height": 43.0
 	},
 	"layout":
 	{
