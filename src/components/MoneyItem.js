@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/css/MoneyItem.css'
+import CurrencyFormatter from 'currency-formatter';
 
 class MoneyItem extends Component {
 	constructor(props) {
@@ -13,8 +14,9 @@ class MoneyItem extends Component {
     return (
       <tr className={"money-item " + "money-item-" + this._reactInternalFiber.key}>
         <td><p>{this.props.item}</p></td>
-        <td><p>{this.props.amount}</p></td>
+        <td><p>{CurrencyFormatter.format(this.props.price, {code: 'USD'})}</p></td>
         <td><p>{this.props.quantity}</p></td>
+        <td><p>{CurrencyFormatter.format(this.props.totalPrice, {code: 'USD'})}</p></td>
         <td><button onClick={this.removeItem} ><i className="fa fa-times-circle" aria-hidden="true"></i></button></td>
       </tr>
     )
@@ -23,7 +25,6 @@ class MoneyItem extends Component {
   removeItem(e) {
     e.preventDefault()
     this.props.removeFunction(this._reactInternalFiber.key)
-    document.querySelector(`.money-item-${this._reactInternalFiber.key}`).remove()
   }
 }
 
